@@ -1,10 +1,26 @@
-.a {color: blue;}
-.b {color: orange;}
-.c {color: tomato;}
-.d {color: indigo;}
-.e {color: forestgreen;}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+.a {color: blue; text-align: center;font-family: 'Roboto', sans-serif;
+}
+
+.b {color: orange;font-family: 'Roboto', sans-serif;
+}
+  .b:hover{color: indigo;background-color:greenyellow;}
+
+.c {color: tomato;font-family: 'Roboto', sans-serif;
+}
+  .c:hover{color: cornflowerblue;background-color:greenyellow;}
+
+  .d {color: indigo;font-family: 'Roboto', sans-serif;
+}
+.e {color: forestgreen;font-family: 'Roboto', sans-serif;
+}
+  .e:hover{color: crimson; background-color:greenyellow;}
 body 
-    {background-color: mediumspringgreen;}
+    
+
+{background-color:blanchedalmond;}
 
     .topnav {
         background-color: #333;
@@ -22,3 +38,6 @@ body
       .topnav a:hover {
         background-color: #ddd;
         color: black;
+
+     
+      

@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
 
+body 
 
 .a {color: blue; text-align: center;font-family: 'Roboto', sans-serif;
 }
@@ -38,6 +39,20 @@ body
       .topnav a:hover {
         background-color: #ddd;
         color: black;
-        
-        
+      }
       
+      .center {
+        position: absolute;
+  display: block;
+  height: 100px;
+  width: 100px;
+  left: 50%;
+  top: 50%;
+  margin-top: -50px;
+  margin-left: -50px;
+      }
+
+  .center:hover{
+    background-color: #ddd;
+    color: black;
+  }

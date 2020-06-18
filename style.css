@@ -1,23 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
 
 body 
 
-.a {color: blue; text-align: center;font-family: 'Roboto', sans-serif;
+.a {color: skyblue; text-align: center;font-family: 'Work Sans', sans-serif;
+
 }
 
-.b {color: orange;font-family: 'Roboto', sans-serif;
-}
-  .b:hover{color: indigo;background-color:greenyellow;}
+.b {color: orange; font-family: 'Work Sans', sans-serif;
 
-.c {color: tomato;font-family: 'Roboto', sans-serif;
 }
-  .c:hover{color: cornflowerblue;background-color:greenyellow;}
+  .b:hover{color: indigo;background-color:red;}
 
-  .d {color: indigo;font-family: 'Roboto', sans-serif;
+.c {color: tomato;
 }
-.e {color: forestgreen;font-family: 'Roboto', sans-serif;
+  .c:hover{color: cornflowerblue;background-color:red;}
+
+  .d {color: indigo;
 }
-  .e:hover{color: crimson; background-color:greenyellow;}
+.e {color: forestgreen;
+}
+  .e:hover{color: black; background-color:red;}
 body 
     
 
@@ -26,6 +28,8 @@ body
     .topnav {
         background-color:orange;
         overflow: hidden;
+        font-family: 'Work Sans', sans-serif;
+
       }
       .topnav a {
         float: left;

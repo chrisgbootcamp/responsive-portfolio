@@ -60,3 +60,10 @@ body
     background-color: #ddd;
     color: black;
   }
+
+  .card-text {
+    font-family: 'Work Sans', sans-serif;}
+
+    .card-title{
+      font-family: :'Work Sans' , sans-serif;
+    }

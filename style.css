@@ -17,7 +17,7 @@ body
 
   .d {color: indigo;
 }
-.e {color: forestgreen;
+.e {color: forestgreen; text-align: center;
 }
   .e:hover{color: black; background-color:red;}
 body 

@@ -1,34 +1,37 @@
 
 
-body 
+body{
+  background-color: ;
+}
 
-.a {color: skyblue; text-align: center;font-family: 'Work Sans', sans-serif;
+.a {color: skyblue; text-align: center;font-family: 'Work Sans', sans-serif; font-size-adjust: inherit;
 
 }
 
-.b {color: orange; font-family: 'Work Sans', sans-serif;
+.b {color: orange; font-family: 'Work Sans', sans-serif; font-size-adjust: inherit;
 
 }
-  .b:hover{color: indigo;background-color:red;}
+  .b:hover{color: indigo;background-color:white;}
 
 .c {color: tomato;
 }
-  .c:hover{color: cornflowerblue;background-color:red;}
+  .c:hover{color: cornflowerblue;background-color:white;}
 
   .d {color: indigo;
 }
 .e {color: forestgreen; text-align: center;
 }
-  .e:hover{color: black; background-color:red;}
+  .e:hover{color: black; background-color:white;}
 body 
     
 
-{background-color:blanchedalmond;}
+{background-color:#003B46;}
 
     .topnav {
-        background-color:orange;
+        background-color:#336B87;
         overflow: hidden;
         font-family: 'Work Sans', sans-serif;
+        width: 200vw;
 
       }
       .topnav a {
@@ -66,4 +69,23 @@ body
 
     .card-title{
       font-family: 'Work Sans' , sans-serif;
+    }
+
+    #centred-image{
+      align-content: center;
+    }
+
+    .col-md-6{
+      color: white;
+      width: auto;
+    }
+
+    .col-md-12{
+      color: whitesmoke;
+      width: auto;
+    }
+
+    .col-sm-6{
+      background-color: #003B46;
+      width: auto;
     }
